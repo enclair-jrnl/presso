@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Presso</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -126,12 +131,12 @@
   .address-link:hover{text-decoration:underline;}
 
   .cta-row{display:flex;gap:12px;}
+  .cta-row .btn{flex:1 1 0;}
   .btn{
     font-family:var(--font);font-weight:700;font-size:.88rem;
     letter-spacing:.01em;text-decoration:none;
     padding:13px 24px;border-radius:3px;
     display:inline-flex;align-items:center;justify-content:center;gap:.5em;
-    flex:1 1 0;
     border:1px solid transparent;transition:background .2s ease,color .2s ease,border-color .2s ease;
   }
   .btn-full{width:100%;}
@@ -166,6 +171,8 @@
     .photo-footer{padding:24px 40px;}
   }
 </style>
+</head>
+<body>
 
 <div class="intro-overlay" aria-hidden="true">
   <svg class="intro-mark" viewBox="0 0 364.9 304.3" role="img" aria-label="Presso">
@@ -232,17 +239,17 @@
 <main>
   <section class="split" id="top">
     <div class="pane-photo">
-      <img src="https://github.com/enclair-jrnl/portfolio/blob/main/images/vetrina.jpg?raw=true" alt="Vetrina di Presso" />
+      <img src="vetrina.jpg" alt="Vetrina di Presso" />
       <div class="photo-footer">
         <span>&copy; Presso</span>
       </div>
     </div>
 
     <div class="pane-info">
-      <img class="illustration" src="https://github.com/enclair-jrnl/portfolio/blob/main/images/presso-bene.png?raw=true" alt="Illustrazione: chicco di caff&#232; come cometa tra chicchi sparsi, con la scritta &laquo;Un espresso, un luogo, un gesto&raquo;" />
+      <img class="illustration" src="oggi-presso-bene.png" alt="Illustrazione: chicco di caff&#232; come cometa tra chicchi sparsi, con la scritta &laquo;Un espresso, un luogo, un gesto&raquo;" />
       <p class="description">Selezioniamo microlotti da produttori che conosciamo per nome, li tostiamo in piccole quantit&#224; ogni settimana e li versiamo uno alla volta, a mano — V60, Chemex o AeroPress, a seconda di cosa serve al chicco. <em>In tazza questa settimana:</em> Etiopia Guji, note di bergamotto e miele di castagno.</p>
 
-      <a class="btn btn-primary btn-full" href="https://drive.google.com/file/d/1F_IXRJFhGrDGn3SU6ao1mvVC9oUg9LxT/view?usp=drive_link">Il men&#249;</a>
+      <a class="btn btn-primary btn-full" href="#">Il men&#249;</a>
 
       <div class="hours">
         <h2>Orari</h2>
@@ -256,8 +263,8 @@
       <a class="address-link" href="https://maps.app.goo.gl/8FRy9CvaQ2EXk315A" target="_blank" rel="noopener">Via Pianell 52, 20125 Milano &#8599;</a>
 
       <div class="cta-row">
-        <a class="btn btn-ghost" href="https://www.instagram.com/presso.caffetteria" target="_blank" rel="noopener">Instagram &#8599;</a>
-        <a class="btn btn-ghost" href="https://wa.me/393398988237" target="_blank" rel="noopener">WhatsApp &#8599;</a>
+        <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">Instagram &#8599;</a>
+        <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">WhatsApp &#8599;</a>
       </div>
     </div>
   </section>
@@ -294,3 +301,5 @@
     update();
   })();
 </script>
+</body>
+</html>
